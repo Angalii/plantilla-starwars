@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.izquierda{
+    position: relative;
+    width: 480px;
+    height: 553px;
+    background: #cc3843;
+    border-radius: 20px;
+}
+
+.izquierda img{
+    position: absolute;
+    left: -80px;
+    top: 145px;
+    opacity: 25%;
+    transform: rotate(270deg)scale(1.3);
+}
+
+.derecha{
+    position: absolute;
+    width: 654px;
+    height: 479px;
+    background: #0c1f2d;
+    border-radius: 20px;
+    top: 37px;
+    left: 255px;
+}
+.derecha img{
+    position: absolute;
+    top: 64px;
+    left: -160px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin: 40px 150px 0px 220px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    margin: 10px 150px 0px 220px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+    margin: 40px 150px 5px 220px;
+}
+
+.btns{
+    margin-left: 220px;
+    background: transparent;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid red;
+}
+.btn{
+    margin-left: 10px;
+    background: transparent;
+    border: 0;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
